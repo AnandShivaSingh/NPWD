@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: npwd
-        image: anandshivasingh/npwd:1.0 #{ImageTag}# # v2.#{Build.BuildId}#
+        image: anandshivasingh/npwd:1.0.#{Build.BuildId}#
         ports:
         - containerPort: 80
         env:
